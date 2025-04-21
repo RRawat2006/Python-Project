@@ -1,19 +1,19 @@
 # Python-Project
 
-🍷 #Wine Quality Prediction App
+🍷 # Wine Quality Prediction App
 This project is a simple and interactive web application built with Streamlit that predicts the quality of wine based on its physicochemical properties using a pre-trained machine learning model.
 
-🔍 #Overview
+🔍 # Overview
 The goal of this project is to provide an intuitive interface for users to input features of a wine sample and receive an estimated quality prediction (e.g., low, medium, or high). The model has been trained on the Wine Quality Dataset, commonly used for classification tasks.
 
-📁 #Project Files
+📁 # Project Files
 main.ipynb: Contains the Jupyter Notebook used for exploratory data analysis, data preprocessing, model training, and evaluation.
 
 app.py: Streamlit-based application that allows users to interact with the model through a web interface.
 
 wine_quality_model.pkl: Trained ML model saved using joblib (must be in the same directory when running the app).
 
-🚀 #How to Run
+🚀 # How to Run
 Install dependencies:
 
 bash
@@ -32,7 +32,7 @@ Enter wine features like acidity, sugar, alcohol, and wine type.
 
 Click Predict Quality to see the prediction.
 
-🧠 #Model Features
+🧠 # Model Features
 The model considers the following input features:
 
 Fixed Acidity
@@ -59,7 +59,7 @@ Alcohol
 
 Wine Type (Red or White)
 
-📊 #Model Training
+📊 # Model Training
 The training notebook (main.ipynb) includes:
 
 Data loading and cleaning
@@ -74,7 +74,7 @@ Model selection and training
 
 Model evaluation and saving
 
-📦 #Dependencies
+📦 # Dependencies
 streamlit
 
 pandas
@@ -85,7 +85,7 @@ scikit-learn
 
 joblib
 
-📌 Notes
+📌 # Notes
 Ensure wine_quality_model.pkl is present in the working directory when running the app.
 
 This project is for educational/demo purposes. For production use, consider adding model versioning, validation, and exception handling.
