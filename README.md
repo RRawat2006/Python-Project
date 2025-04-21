@@ -1,6 +1,6 @@
 # Python-Project
 
-🍷 # Wine Quality Prediction App
+🍷 **Wine Quality Prediction App**
 This project is a simple and interactive web application built with Streamlit that predicts the quality of wine based on its physicochemical properties using a pre-trained machine learning model.
 
 🔍 # Overview
